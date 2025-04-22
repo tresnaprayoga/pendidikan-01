@@ -1,0 +1,61 @@
+.galeri-section {
+  padding: 2rem;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.galeri-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+
+.galeri-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+}
+
+.galeri-item {
+  overflow: hidden;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.galeri-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  transition: transform 0.3s ease;
+}
+
+/* Khusus untuk baris kedua */
+.box3 {
+  grid-column: span 2;
+}
+
+/* Animasi saat hover */
+.galeri-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.galeri-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .galeri-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .box3 {
+    grid-column: span 1;
+  }
+}

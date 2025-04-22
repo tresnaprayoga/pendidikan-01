@@ -1,0 +1,16 @@
+@import './navbar.css';
+@import './herosection.css';
+@import './cardSingel.css';
+@import './servicsection.css';
+@import './contentsection.css';
+@import './galerypicture.css';
+@import './wabutton.css';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding-top: 60px; /* Sesuaikan dengan tinggi navbar */
+}

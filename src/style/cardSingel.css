@@ -1,0 +1,61 @@
+.about-card {
+  max-width: 800px;
+  margin: 6rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-logo {
+  width: 20%;
+  border-radius: 5px;
+}
+.about-logo img {
+  width: 100%;
+}
+
+.about-card h2 {
+  font-size: 2rem;
+  color: #333;
+  margin: 0;
+}
+
+.about-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .about-card {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .about-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-card p {
+    font-size: 0.9rem;
+  }
+
+  .about-logo {
+    width: 20%;
+    border-radius: 5px;
+  }
+  .about-logo img {
+    width: 100%;
+  }
+}
