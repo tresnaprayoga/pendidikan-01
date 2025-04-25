@@ -10,14 +10,14 @@ const Navbar = ({ logoText, menuItems }) => {
   return (
     <nav className='navbar'>
       <div className='navbar-logo'>
-        <img src='/logontch3.png' alt='' />
+        <img src='customer-1/logontch3.png' alt='' />
       </div>
       <button className='navbar-toggle' onClick={toggleMenu}>
         ☰
       </button>
       <div className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
         {menuItems.map((item, index) => (
-          <a key={index} href={`#${item.toLowerCase()}`} className='navbar-link' onClick={() => setIsMenuOpen(false)}>
+          <a key={index} href={` #${item.toLowerCase()}`} className='navbar-link' onClick={() => setIsMenuOpen(false)}>
             {item}
           </a>
         ))}

@@ -15,3 +15,7 @@
 main {
   padding-top: 60px; /* Sesuaikan dengan tinggi navbar */
 }
+
+html {
+  scroll-behavior: smooth;
+}

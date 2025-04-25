@@ -17,6 +17,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
+  gap: 7px;
 }
 
 .galeri-item {
@@ -30,7 +31,7 @@
   width: 100%;
   height: auto;
   display: block;
-
+  border-radius: 5px;
   transition: transform 0.3s ease;
 }
 
@@ -43,6 +44,7 @@
 .galeri-item:hover {
   transform: scale(1.02);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .galeri-item:hover img {
