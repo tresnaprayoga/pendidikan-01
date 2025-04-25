@@ -5,6 +5,7 @@
 @import './contentsection.css';
 @import './galerypicture.css';
 @import './wabutton.css';
+@import './footer.css';
 
 * {
   padding: 0;

@@ -8,6 +8,7 @@ import ServicesSection from './component/ServiceSection';
 import ContentSection from './component/ContentSection';
 import GaleriKegiatan from './component/GaleryPicture';
 import WhatsAppButton from './component/WAbutton';
+import FooterSosial from './component/Footer';
 
 function App() {
   const dataNav = NavBarItems();
@@ -29,6 +30,9 @@ function App() {
         <ContentSection title={contentData.title} description={contentData.description} image={contentData.image} />
         <GaleriKegiatan images={dataPicture} />
       </main>
+      <footer>
+        <FooterSosial />
+      </footer>
     </>
   );
 }
